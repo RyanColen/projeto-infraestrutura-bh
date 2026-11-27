@@ -1,0 +1,1115 @@
+       tabela       | registros 
+--------------------+-----------
+ bairros            |       493
+ equipamentos_saude |       398
+ vias               |     55143
+(3 linhas)
+
+       tabela       | tipo_geometria | srid  | registros | geometrias_nulas | geometrias_vazias | geometrias_invalidas 
+--------------------+----------------+-------+-----------+------------------+-------------------+----------------------
+ bairros            | MULTIPOLYGON   | 31983 |       493 |                0 |                 0 |                    0
+ equipamentos_saude | POINT          | 31983 |       398 |                0 |                 0 |                    0
+ vias               | LINESTRING     | 31983 |     55143 |                0 |                 0 |                    0
+(3 linhas)
+
+ codigo |             bairro              | equipamentos_saude 
+--------+---------------------------------+--------------------
+    739 | Padre Eustáquio                 |                 14
+    760 | Sagrada Família                 |                 11
+    785 | São João Batista                |                 10
+    765 | Santa Efigênia                  |                  9
+    791 | São Paulo                       |                  7
+    629 | Calafate                        |                  6
+    780 | São Bernardo                    |                  6
+    636 | Carlos Prates                   |                  5
+    700 | Jaqueline                       |                  5
+    772 | Santa Mônica                    |                  5
+   1133 | Savassi                         |                  5
+   1491 | Barreiro                        |                  4
+    642 | Centro                          |                  4
+    643 | Céu Azul                        |                  4
+    714 | Lindéia                         |                  4
+    725 | Minaslândia                     |                  4
+   1170 | Novo Aarão Reis                 |                  4
+    750 | Planalto                        |                  4
+    818 | Rio Branco                      |                  4
+    762 | Santa Amélia                    |                  4
+    781 | São Cristóvão                   |                  4
+   1253 | Silveira                        |                  4
+   1246 | Alto Vera Cruz                  |                  3
+   1490 | Bairro das Indústrias I         |                  3
+    620 | Boa Vista                       |                  3
+   1492 | Conjunto Califórnia I           |                  3
+    828 | Copacabana                      |                  3
+    677 | Flávio Marques Lisboa           |                  3
+    690 | Havaí                           |                  3
+    691 | Heliópolis                      |                  3
+    702 | Jardim América                  |                  3
+    834 | Jardim Felicidade               |                  3
+    707 | João Pinheiro                   |                  3
+    710 | Lagoinha                        |                  3
+    717 | Madre Gertrudes                 |                  3
+   1343 | Manacás                         |                  3
+    719 | Mantiqueira                     |                  3
+    722 | Milionários                     |                  3
+    732 | Nova Granada                    |                  3
+    738 | Ouro Preto                      |                  3
+    751 | Pompéia                         |                  3
+    759 | Ribeiro de Abreu                |                  3
+    774 | Santa Tereza                    |                  3
+    641 | São Luíz                        |                  3
+    808 | União                           |                  3
+   1271 | Alpes                           |                  2
+    617 | Barro Preto                     |                  2
+   1239 | Belmonte                        |                  2
+    619 | Betânia                         |                  2
+   1140 | Bonsucesso                      |                  2
+    628 | Caiçaras                        |                  2
+    635 | Cardoso                         |                  2
+   1161 | Cinquentenário                  |                  2
+    647 | Concórdia                       |                  2
+    650 | Conjunto Celso Machado          |                  2
+   1313 | Conjunto Paulo VI               |                  2
+   1317 | Conjunto Taquaril               |                  2
+    654 | Coqueiros                       |                  2
+    655 | Coração de Jesus                |                  2
+    658 | Dom Bosco                       |                  2
+    659 | Dom Cabral                      |                  2
+    666 | Esplanada                       |                  2
+   1324 | Estrela do Oriente              |                  2
+    926 | Fernão Dias                     |                  2
+    678 | Floramar                        |                  2
+    812 | Goiânia                         |                  2
+    689 | Gutierrez                       |                  2
+    698 | Ipiranga                        |                  2
+    699 | Itapoã                          |                  2
+    653 | Jardim Atlântico                |                  2
+    703 | Jardim dos Comerciários         |                  2
+    708 | Lagoa                           |                  2
+    718 | Mangabeiras                     |                  2
+   1149 | Miramar                         |                  2
+   1363 | Nossa Senhora de Fátima         |                  2
+   1364 | Nossa Senhora do Rosário        |                  2
+   1165 | Petrópolis                      |                  2
+    748 | Pindorama                       |                  2
+    758 | Renascença                      |                  2
+    761 | Salgado Filho                   |                  2
+    763 | Santa Cruz                      |                  2
+    773 | Santa Rosa                      |                  2
+    775 | Santa Terezinha                 |                  2
+    778 | Santo Antônio                   |                  2
+    782 | São Francisco                   |                  2
+    784 | São Geraldo                     |                  2
+    797 | Serra                           |                  2
+   1494 | Serra do Curral                 |                  2
+    799 | Serra Verde                     |                  2
+    803 | Taquaril                        |                  2
+    805 | Tirol                           |                  2
+   1155 | Túnel de Ibirité                |                  2
+    832 | Vale do Jatobá                  |                  2
+    811 | Vera Cruz                       |                  2
+    813 | Vila Clóris                     |                  2
+    819 | Vista Alegre                    |                  2
+   1481 | Vitória                         |                  2
+    600 | Aarão Reis                      |                  1
+   1483 | Acaba Mundo                     |                  1
+    603 | Alto Caiçaras                   |                  1
+    608 | Aparecida                       |                  1
+    821 | Aparecida Sétima Seção          |                  1
+   1145 | Átila de Paiva                  |                  1
+    742 | Bandeirantes                    |                  1
+    622 | Bonfim                          |                  1
+    625 | Cachoeirinha                    |                  1
+    630 | Califórnia                      |                  1
+    631 | Camargos                        |                  1
+    632 | Campo Alegre                    |                  1
+   1299 | Candelária                      |                  1
+    637 | Carmo                           |                  1
+    638 | Casa Branca                     |                  1
+   1485 | CDI Jatobá                      |                  1
+    646 | Colégio Batista                 |                  1
+    835 | Confisco                        |                  1
+   1495 | Conjunto Capitão Eduardo        |                  1
+   1310 | Conjunto Jardim Filadélfia      |                  1
+   1312 | Conjunto Minascaixa             |                  1
+    657 | Cruzeiro                        |                  1
+   1148 | Diamante                        |                  1
+   1171 | Distrito Industrial do Jatobá   |                  1
+    660 | Dom Joaquim                     |                  1
+    664 | Engenho Nogueira                |                  1
+    665 | Ermelinda                       |                  1
+    669 | Etelvina Carneiro               |                  1
+    670 | Europa                          |                  1
+    681 | Funcionários                    |                  1
+   1245 | Granja de Freitas               |                  1
+    687 | Guarani                         |                  1
+    692 | Horto                           |                  1
+    694 | Independência                   |                  1
+   1043 | Ipê                             |                  1
+   1172 | Jardim Alvorada                 |                  1
+   1065 | Jardim Guanabara                |                  1
+   1493 | Jardim Leblon                   |                  1
+    704 | Jardim Montanhês                |                  1
+    787 | Jardim São José                 |                  1
+    831 | Jardim Vitória                  |                  1
+   1337 | Lajedo                          |                  1
+    721 | Maria Helena                    |                  1
+   1349 | Maria Teresa                    |                  1
+   1350 | Mariano de Abreu                |                  1
+   1158 | Marilândia                      |                  1
+    724 | Minascaixa                      |                  1
+    726 | Monsenhor Messias               |                  1
+    695 | Monte Azul                      |                  1
+   1240 | Nazaré                          |                  1
+    728 | Nova Cintra                     |                  1
+    730 | Nova Floresta                   |                  1
+    731 | Nova Gameleira                  |                  1
+    734 | Nova Suissa                     |                  1
+    735 | Nova Vista                      |                  1
+   1484 | Novo Glória                     |                  1
+   1367 | Novo Santa Cecília              |                  1
+    736 | Novo São Lucas                  |                  1
+   1369 | Oeste                           |                  1
+    833 | Olaria                          |                  1
+    740 | Palmares                        |                  1
+    741 | Palmeiras                       |                  1
+    743 | Paquetá                         |                  1
+    744 | Paraíso                         |                  1
+   1142 | Parque São José                 |                  1
+    905 | Paulo VI                        |                  1
+    746 | Pedreira Prado Lopes            |                  1
+   1168 | Pilar                           |                  1
+    790 | Piratininga                     |                  1
+    823 | Pongelupe                       |                  1
+    754 | Primeiro de Maio                |                  1
+    829 | Santa Branca                    |                  1
+   1159 | Santa Cecília                   |                  1
+    767 | Santa Inês                      |                  1
+    770 | Santa Maria                     |                  1
+   1163 | Santa Rita                      |                  1
+   1379 | Santa Rita de Cássia            |                  1
+   1381 | Santana do Cafezal              |                  1
+    776 | Santo Agostinho                 |                  1
+    777 | Santo André                     |                  1
+    779 | São Bento                       |                  1
+    783 | São Gabriel                     |                  1
+   1671 | São Jorge II                    |                  1
+    789 | São Marcos                      |                  1
+    792 | São Pedro                       |                  1
+    793 | São Salvador                    |                  1
+    907 | Suzana                          |                  1
+    804 | Teixeira Dias                   |                  1
+    827 | Trevo                           |                  1
+    806 | Tupi A                          |                  1
+    810 | Venda Nova                      |                  1
+   1409 | Vila Barragem Santa Lúcia       |                  1
+    673 | Vila CEMIG                      |                  1
+   1415 | Vila Coqueiral                  |                  1
+   1436 | Vila Maria                      |                  1
+   1153 | Vila Pinho                      |                  1
+   1460 | Vila Rica                       |                  1
+   2028 | Vila São Tomáz                  |                  1
+   1267 | Acaiaca                         |                  0
+   1147 | Ademar Maldonado                |                  0
+    830 | Aeroporto                       |                  0
+   1270 | Águas Claras                    |                  0
+    602 | Alípio de Melo                  |                  0
+   1665 | Alta Tensão                     |                  0
+   1272 | Alta Tensão I                   |                  0
+    822 | Alto Barroca                    |                  0
+   1666 | Alto das Antenas                |                  0
+    604 | Alto dos Pinheiros              |                  0
+    605 | Álvaro Camargos                 |                  0
+   1668 | Ambrosina                       |                  0
+    607 | Anchieta                        |                  0
+   1658 | Andiroba                        |                  0
+   1976 | Antônio Ribeiro de Abreu        |                  0
+   1276 | Apolônia                        |                  0
+   1141 | Araguaia                        |                  0
+   1278 | Bacurau                         |                  0
+   1279 | Bairro das Indústrias II        |                  0
+   1138 | Bairro Novo das Indústrias      |                  0
+    612 | Baleia                          |                  0
+   1282 | Barão Homem de Melo I           |                  0
+   1281 | Barão Homem de Melo III         |                  0
+   1280 | Barão Homem de Melo IV          |                  0
+    616 | Barroca                         |                  0
+   1241 | Beija Flor                      |                  0
+   1286 | Beira-Linha                     |                  0
+   1287 | Bela Vitória                    |                  0
+   1651 | Belém                           |                  0
+    618 | Belvedere                       |                  0
+   1289 | Bernadete                       |                  0
+   1290 | Biquinhas                       |                  0
+   1291 | Bispo de Maura                  |                  0
+   1659 | Boa Esperança                   |                  0
+   1293 | Boa União I                     |                  0
+   1292 | Boa União II                    |                  0
+   1156 | Boa Viagem                      |                  0
+    621 | Bom Jesus                       |                  0
+   1150 | Brasil Industrial               |                  0
+    652 | Braúnas                         |                  0
+    623 | Buritis                         |                  0
+    624 | Cabana do Pai Tomás             |                  0
+    626 | Caetano Furquim                 |                  0
+    627 | Caiçara-Adelaide                |                  0
+   2042 | Camilo Torres                   |                  0
+    633 | Campus UFMG                     |                  0
+    634 | Canaã                           |                  0
+   1298 | Canadá                          |                  0
+    906 | Capitão Eduardo                 |                  0
+   1154 | Castanheira                     |                  0
+    639 | Castelo                         |                  0
+   1303 | Cenáculo                        |                  0
+   1304 | Chácara Leonina                 |                  0
+    644 | Cidade Jardim                   |                  0
+   1487 | Cidade Jardim Taquaril          |                  0
+    645 | Cidade Nova                     |                  0
+   1306 | Comiteco                        |                  0
+   1307 | Cônego Pinheiro                 |                  0
+   1308 | Cônego Pinheiro A               |                  0
+   1139 | Conjunto Bonsucesso             |                  0
+    649 | Conjunto Califórnia II          |                  0
+   1309 | Conjunto Floramar               |                  0
+   1160 | Conjunto Jatobá                 |                  0
+   1311 | Conjunto Lagoa                  |                  0
+   1365 | Conjunto Novo Dom Bosco         |                  0
+   1314 | Conjunto Providência            |                  0
+    769 | Conjunto Santa Maria            |                  0
+   1315 | Conjunto São Francisco de Assis |                  0
+   1316 | Conjunto Serra Verde            |                  0
+    656 | Coração Eucarístico             |                  0
+   1257 | Corumbiara                      |                  0
+   2032 | Cristo Rei                      |                  0
+   1318 | Custodinha                      |                  0
+   2043 | Dandara                         |                  0
+   1319 | Delta                           |                  0
+    661 | Dom Silvério                    |                  0
+    662 | Dona Clara                      |                  0
+   2040 | Eliana Silva                    |                  0
+   1162 | Ernesto do Nascimento           |                  0
+   1321 | Esperança                       |                  0
+    667 | Estoril                         |                  0
+   1323 | Estrela                         |                  0
+    671 | Eymard                          |                  0
+   1325 | Fazendinha                      |                  0
+   1326 | Flamengo                        |                  0
+   1143 | Flávio de Oliveira              |                  0
+    679 | Floresta                        |                  0
+    615 | Frei Leopoldo                   |                  0
+    682 | Gameleira                       |                  0
+    807 | Garças                          |                  0
+    684 | Glória                          |                  0
+    609 | Graça                           |                  0
+    686 | Grajaú                          |                  0
+   1176 | Granja Werneck                  |                  0
+   1327 | Grota                           |                  0
+   1328 | Grotinha                        |                  0
+   1329 | Guanabara                       |                  0
+   1330 | Guaratã                         |                  0
+   1331 | Horto Florestal                 |                  0
+   1332 | Imbaúbas                        |                  0
+    693 | Inconfidência                   |                  0
+   1261 | Indaiá                          |                  0
+   2041 | Irmã Dorothy                    |                  0
+   1157 | Itaipu                          |                  0
+   1333 | Itatiaia                        |                  0
+    701 | Jaraguá                         |                  0
+   1334 | Jardim do Vale                  |                  0
+   2030 | Jardim Getsemani                |                  0
+   2036 | Jardim Liberdade                |                  0
+    705 | Jardinópolis                    |                  0
+    706 | Jatobá                          |                  0
+   1336 | João Alfredo                    |                  0
+   1146 | João Paulo II                   |                  0
+   1258 | Jonas Veiga                     |                  0
+    688 | Juliana                         |                  0
+   1972 | Lagoa da Pampulha               |                  0
+    709 | Lagoinha Leblon                 |                  0
+   1339 | Leonina                         |                  0
+    712 | Letícia                         |                  0
+    713 | Liberdade                       |                  0
+   1340 | Lorena                          |                  0
+    715 | Lourdes                         |                  0
+    716 | Luxemburgo                      |                  0
+   1341 | Madri                           |                  0
+   1342 | Mala e Cuia                     |                  0
+   1164 | Mangueiras                      |                  0
+    720 | Marajó                          |                  0
+   1346 | Maravilha                       |                  0
+   1348 | Marçola                         |                  0
+    771 | Maria Goretti                   |                  0
+    816 | Maria Virgínia                  |                  0
+   1351 | Marieta I                       |                  0
+   1973 | Marieta II                      |                  0
+   1353 | Mariquinhas                     |                  0
+   1354 | Marmiteiros                     |                  0
+    723 | Minas Brasil                    |                  0
+   1166 | Mineirão                        |                  0
+   1356 | Mirante                         |                  0
+   1357 | Mirtes                          |                  0
+   1006 | Monte São José                  |                  0
+   2035 | Montes Claros                   |                  0
+   1359 | Morro dos Macacos               |                  0
+   1361 | Nossa Senhora da Aparecida      |                  0
+   1362 | Nossa Senhora da Conceição      |                  0
+    967 | Nova América                    |                  0
+    824 | Nova Cachoeirinha               |                  0
+    729 | Nova Esperança                  |                  0
+    733 | Nova Pampulha                   |                  0
+   2033 | Novo Lajedo                     |                  0
+   1366 | Novo Ouro Preto                 |                  0
+   1368 | Novo Tupi                       |                  0
+    737 | Olhos d'Água                    |                  0
+   1238 | Ouro Minas                      |                  0
+   1370 | Pantanal                        |                  0
+   1371 | Parque São Pedro                |                  0
+   1372 | Penha                           |                  0
+   1374 | Pindura Saia                    |                  0
+    749 | Pirajá                          |                  0
+   1376 | Pirineus                        |                  0
+   1173 | Pousada Santo Antônio           |                  0
+    752 | Prado                           |                  0
+    756 | Providência                     |                  0
+    766 | Santa Helena                    |                  0
+   1378 | Santa Isabel                    |                  0
+    768 | Santa Lúcia                     |                  0
+   1144 | Santa Margarida                 |                  0
+   1380 | Santa Sofia                     |                  0
+   1382 | São Benedito                    |                  0
+   1383 | São Damião                      |                  0
+   1373 | São Francisco das Chagas        |                  0
+   1384 | São Gonçalo                     |                  0
+   1385 | São João                        |                  0
+   1670 | São Jorge I                     |                  0
+   1672 | São Jorge III                   |                  0
+    640 | São José                        |                  0
+   2039 | São Judas Tadeu                 |                  0
+    788 | São Lucas                       |                  0
+   1479 | São Sebastião                   |                  0
+    794 | São Tomáz                       |                  0
+   1388 | São Vicente                     |                  0
+   1389 | Satélite                        |                  0
+    796 | Saudade                         |                  0
+   1390 | Senhor dos Passos               |                  0
+    798 | Serrano                         |                  0
+    801 | Sion                            |                  0
+   1167 | Solar do Barreiro               |                  0
+    802 | Solimões                        |                  0
+   1392 | Sport Club                      |                  0
+    674 | Sumaré                          |                  0
+   2034 | Tiradentes                      |                  0
+   1394 | Três Marias                     |                  0
+   1247 | Tupi B                          |                  0
+    809 | Universitário                   |                  0
+   1396 | Universo                        |                  0
+   1397 | Urca                            |                  0
+   1398 | Várzea da Palma                 |                  0
+   1974 | Ventosa                         |                  0
+   1401 | Vila Aeroporto                  |                  0
+   1402 | Vila Aeroporto Jaraguá          |                  0
+   2027 | Vila Alto dos Pinheiros         |                  0
+   1405 | Vila Antena                     |                  0
+   1406 | Vila Antena Montanhês           |                  0
+   1407 | Vila Átila de Paiva             |                  0
+   1408 | Vila Bandeirantes               |                  0
+   1285 | Vila Batik                      |                  0
+   1410 | Vila Boa Vista                  |                  0
+   1676 | Vila Calafate                   |                  0
+   1412 | Vila Califórnia                 |                  0
+   1664 | Vila Canto do Sabiá             |                  0
+   1413 | Vila Copacabana                 |                  0
+   1414 | Vila COPASA                     |                  0
+   1675 | Vila da Amizade                 |                  0
+   1660 | Vila da Luz                     |                  0
+   1417 | Vila da Paz                     |                  0
+   1419 | Vila de Sá                      |                  0
+   1294 | Vila Dias                       |                  0
+   1420 | Vila do Pombal                  |                  0
+   1421 | Vila dos Anjos                  |                  0
+   1251 | Vila Ecológica                  |                  0
+   1422 | Vila Engenho Nogueira           |                  0
+   1322 | Vila Esplanada                  |                  0
+   1254 | Vila Formosa                    |                  0
+   1423 | Vila FUMEC                      |                  0
+   1424 | Vila Havaí                      |                  0
+   2037 | Vila Horto Florestal            |                  0
+   1425 | Vila Independência I            |                  0
+   1426 | Vila Independência II           |                  0
+   1427 | Vila Independência IV           |                  0
+   1428 | Vila Inestan                    |                  0
+   1429 | Vila Ipiranga                   |                  0
+   1404 | Vila Jardim Alvorada            |                  0
+   1430 | Vila Jardim Leblon              |                  0
+   1431 | Vila Jardim Montanhês           |                  0
+   1391 | Vila Madre Gertrudes I          |                  0
+   1320 | Vila Madre Gertrudes II         |                  0
+   1358 | Vila Madre Gertrudes III        |                  0
+   1345 | Vila Madre Gertrudes V          |                  0
+   1433 | Vila Maloca                     |                  0
+   1677 | Vila Mangueiras                 |                  0
+   1435 | Vila Mantiqueira                |                  0
+   1437 | Vila Minaslândia                |                  0
+   1360 | Vila Nossa Senhora Aparecida    |                  0
+   1438 | Vila Nossa Senhora do Rosário   |                  0
+   1439 | Vila Nova                       |                  0
+   1440 | Vila Nova Cachoeirinha I        |                  0
+   1441 | Vila Nova Cachoeirinha II       |                  0
+   1443 | Vila Nova Cachoeirinha IV       |                  0
+   2029 | Vila Nova Cintra                |                  0
+   1444 | Vila Nova dos Milionários       |                  0
+   1445 | Vila Nova Gameleira I           |                  0
+   1446 | Vila Nova Gameleira II          |                  0
+   1447 | Vila Nova Gameleira III         |                  0
+   1448 | Vila Nova Paraíso               |                  0
+   1449 | Vila Novo São Lucas             |                  0
+    814 | Vila Oeste                      |                  0
+   1661 | Vila Ouro Minas                 |                  0
+   1451 | Vila Paquetá                    |                  0
+   1452 | Vila Paraíso                    |                  0
+    815 | Vila Paris                      |                  0
+   1453 | Vila Petrópolis                 |                  0
+   1455 | Vila Piratininga                |                  0
+   1375 | Vila Piratininga Venda Nova     |                  0
+   1456 | Vila Primeiro de Maio           |                  0
+   1457 | Vila PUC                        |                  0
+   1458 | Vila Real I                     |                  0
+   1459 | Vila Real II                    |                  0
+   1975 | Vila Santa Mônica               |                  0
+   1462 | Vila Santa Rosa                 |                  0
+   1463 | Vila Santo Antônio              |                  0
+   1464 | Vila Santo Antônio Barroquinha  |                  0
+   1486 | Vila São Dimas                  |                  0
+   1465 | Vila São Francisco              |                  0
+   1662 | Vila São Gabriel                |                  0
+   1467 | Vila São Geraldo                |                  0
+    786 | Vila São João Batista           |                  0
+   1468 | Vila São Paulo                  |                  0
+   1470 | Vila São Rafael                 |                  0
+   1471 | Vila Satélite                   |                  0
+    800 | Vila SESC                       |                  0
+   1473 | Vila Sumaré                     |                  0
+   1474 | Vila Suzana I                   |                  0
+   1475 | Vila Suzana II                  |                  0
+   1393 | Vila Tiradentes                 |                  0
+   1476 | Vila Tirol                      |                  0
+   2038 | Vila Trevo                      |                  0
+   1477 | Vila Trinta e Um de Março       |                  0
+   1478 | Vila União                      |                  0
+   1652 | Vila Vera Cruz I                |                  0
+   1653 | Vila Vera Cruz II               |                  0
+   2031 | Vila Verde                      |                  0
+   1480 | Vila Vista Alegre               |                  0
+   2026 | Vila Viveiro                    |                  0
+    817 | Virgínia                        |                  0
+   1202 | Vista do Sol                    |                  0
+   1252 | Vitória da Conquista            |                  0
+    820 | Xangri-lá                       |                  0
+    675 | Xodó-Marize                     |                  0
+   1482 | Zilah Spósito                   |                  0
+(493 linhas)
+
+ codigo |             bairro              | equipamentos_saude | extensao_vias_m 
+--------+---------------------------------+--------------------+-----------------
+    600 | Aarão Reis                      |                  1 |         7707.91
+   1483 | Acaba Mundo                     |                  1 |         1640.28
+   1267 | Acaiaca                         |                  0 |         6498.12
+   1147 | Ademar Maldonado                |                  0 |         4460.99
+    830 | Aeroporto                       |                  0 |         9883.05
+   1270 | Águas Claras                    |                  0 |         5139.86
+    602 | Alípio de Melo                  |                  0 |        25830.52
+   1271 | Alpes                           |                  2 |         4756.41
+   1665 | Alta Tensão                     |                  0 |          597.80
+   1272 | Alta Tensão I                   |                  0 |         2658.96
+    822 | Alto Barroca                    |                  0 |         7300.14
+    603 | Alto Caiçaras                   |                  1 |        17685.96
+   1666 | Alto das Antenas                |                  0 |         2657.75
+    604 | Alto dos Pinheiros              |                  0 |         8140.09
+   1246 | Alto Vera Cruz                  |                  3 |        24575.08
+    605 | Álvaro Camargos                 |                  0 |         3963.65
+   1668 | Ambrosina                       |                  0 |         1564.66
+    607 | Anchieta                        |                  0 |        14489.15
+   1658 | Andiroba                        |                  0 |         1052.78
+   1976 | Antônio Ribeiro de Abreu        |                  0 |          752.23
+    608 | Aparecida                       |                  1 |        19716.91
+    821 | Aparecida Sétima Seção          |                  1 |         8551.66
+   1276 | Apolônia                        |                  0 |         7278.53
+   1141 | Araguaia                        |                  0 |        28190.67
+   1145 | Átila de Paiva                  |                  1 |         3373.55
+   1278 | Bacurau                         |                  0 |          173.44
+   1490 | Bairro das Indústrias I         |                  3 |        25303.04
+   1279 | Bairro das Indústrias II        |                  0 |         4941.96
+   1138 | Bairro Novo das Indústrias      |                  0 |        12997.01
+    612 | Baleia                          |                  0 |         4422.60
+    742 | Bandeirantes                    |                  1 |        45674.99
+   1282 | Barão Homem de Melo I           |                  0 |          221.20
+   1281 | Barão Homem de Melo III         |                  0 |          270.31
+   1280 | Barão Homem de Melo IV          |                  0 |         1845.06
+   1491 | Barreiro                        |                  4 |        29234.30
+    617 | Barro Preto                     |                  2 |        18819.05
+    616 | Barroca                         |                  0 |         5028.83
+   1241 | Beija Flor                      |                  0 |         9086.99
+   1286 | Beira-Linha                     |                  0 |         6376.84
+   1287 | Bela Vitória                    |                  0 |         1578.45
+   1651 | Belém                           |                  0 |          105.75
+   1239 | Belmonte                        |                  2 |         5417.49
+    618 | Belvedere                       |                  0 |        35792.63
+   1289 | Bernadete                       |                  0 |         2624.02
+    619 | Betânia                         |                  2 |        28318.53
+   1290 | Biquinhas                       |                  0 |         2086.51
+   1291 | Bispo de Maura                  |                  0 |          763.39
+   1659 | Boa Esperança                   |                  0 |         1113.22
+   1293 | Boa União I                     |                  0 |          221.23
+   1292 | Boa União II                    |                  0 |          507.87
+   1156 | Boa Viagem                      |                  0 |         4820.06
+    620 | Boa Vista                       |                  3 |        27491.08
+    621 | Bom Jesus                       |                  0 |         6009.23
+    622 | Bonfim                          |                  1 |        15719.78
+   1140 | Bonsucesso                      |                  2 |        15734.49
+   1150 | Brasil Industrial               |                  0 |        14100.73
+    652 | Braúnas                         |                  0 |        17854.90
+    623 | Buritis                         |                  0 |        42467.53
+    624 | Cabana do Pai Tomás             |                  0 |        19093.97
+    625 | Cachoeirinha                    |                  1 |        26073.05
+    626 | Caetano Furquim                 |                  0 |          521.02
+    627 | Caiçara-Adelaide                |                  0 |        17137.98
+    628 | Caiçaras                        |                  2 |        37817.07
+    629 | Calafate                        |                  6 |        19314.71
+    630 | Califórnia                      |                  1 |        21335.00
+    631 | Camargos                        |                  1 |        27511.42
+   2042 | Camilo Torres                   |                  0 |          879.94
+    632 | Campo Alegre                    |                  1 |         7935.66
+    633 | Campus UFMG                     |                  0 |        19044.07
+    634 | Canaã                           |                  0 |         7370.61
+   1298 | Canadá                          |                  0 |         1693.03
+   1299 | Candelária                      |                  1 |        16889.26
+    906 | Capitão Eduardo                 |                  0 |        13505.33
+    635 | Cardoso                         |                  2 |        17797.53
+    636 | Carlos Prates                   |                  5 |        36177.36
+    637 | Carmo                           |                  1 |         4571.95
+    638 | Casa Branca                     |                  1 |        11925.53
+   1154 | Castanheira                     |                  0 |         8145.03
+    639 | Castelo                         |                  0 |        34122.28
+   1485 | CDI Jatobá                      |                  1 |         9260.16
+   1303 | Cenáculo                        |                  0 |         5083.92
+    642 | Centro                          |                  4 |        34836.81
+    643 | Céu Azul                        |                  4 |        51293.81
+   1304 | Chácara Leonina                 |                  0 |          912.87
+    644 | Cidade Jardim                   |                  0 |         7669.83
+   1487 | Cidade Jardim Taquaril          |                  0 |        11392.16
+    645 | Cidade Nova                     |                  0 |        18119.39
+   1161 | Cinquentenário                  |                  2 |         9458.29
+    646 | Colégio Batista                 |                  1 |        18023.76
+   1306 | Comiteco                        |                  0 |        12996.53
+    647 | Concórdia                       |                  2 |        18524.15
+   1307 | Cônego Pinheiro                 |                  0 |          577.08
+   1308 | Cônego Pinheiro A               |                  0 |          218.34
+    835 | Confisco                        |                  1 |         7390.59
+   1139 | Conjunto Bonsucesso             |                  0 |         1388.38
+   1492 | Conjunto Califórnia I           |                  3 |         7114.21
+    649 | Conjunto Califórnia II          |                  0 |         3131.64
+   1495 | Conjunto Capitão Eduardo        |                  1 |         5815.79
+    650 | Conjunto Celso Machado          |                  2 |         9245.67
+   1309 | Conjunto Floramar               |                  0 |         1144.76
+   1310 | Conjunto Jardim Filadélfia      |                  1 |         4097.32
+   1160 | Conjunto Jatobá                 |                  0 |         3758.59
+   1311 | Conjunto Lagoa                  |                  0 |         1934.95
+   1312 | Conjunto Minascaixa             |                  1 |         6761.84
+   1365 | Conjunto Novo Dom Bosco         |                  0 |          856.44
+   1313 | Conjunto Paulo VI               |                  2 |         7677.25
+   1314 | Conjunto Providência            |                  0 |          453.43
+    769 | Conjunto Santa Maria            |                  0 |         2747.68
+   1315 | Conjunto São Francisco de Assis |                  0 |          492.50
+   1316 | Conjunto Serra Verde            |                  0 |          615.18
+   1317 | Conjunto Taquaril               |                  2 |        31213.81
+    828 | Copacabana                      |                  3 |        27675.56
+    654 | Coqueiros                       |                  2 |        13561.04
+    655 | Coração de Jesus                |                  2 |         5835.10
+    656 | Coração Eucarístico             |                  0 |        14799.54
+   1257 | Corumbiara                      |                  0 |         1498.37
+   2032 | Cristo Rei                      |                  0 |          184.75
+    657 | Cruzeiro                        |                  1 |        10674.74
+   1318 | Custodinha                      |                  0 |          207.22
+   2043 | Dandara                         |                  0 |         7960.56
+   1319 | Delta                           |                  0 |         1760.08
+   1148 | Diamante                        |                  1 |        32549.21
+   1171 | Distrito Industrial do Jatobá   |                  1 |         9660.88
+    658 | Dom Bosco                       |                  2 |        22520.41
+    659 | Dom Cabral                      |                  2 |        10673.59
+    660 | Dom Joaquim                     |                  1 |        10656.38
+    661 | Dom Silvério                    |                  0 |         9180.86
+    662 | Dona Clara                      |                  0 |        15545.22
+   2040 | Eliana Silva                    |                  0 |         2131.93
+    664 | Engenho Nogueira                |                  1 |        12067.37
+    665 | Ermelinda                       |                  1 |         8399.32
+   1162 | Ernesto do Nascimento           |                  0 |         4435.46
+   1321 | Esperança                       |                  0 |         4615.05
+    666 | Esplanada                       |                  2 |        17863.73
+    667 | Estoril                         |                  0 |        23551.43
+   1323 | Estrela                         |                  0 |         2306.30
+   1324 | Estrela do Oriente              |                  2 |        13272.42
+    669 | Etelvina Carneiro               |                  1 |         6131.51
+    670 | Europa                          |                  1 |        20141.85
+    671 | Eymard                          |                  0 |         9049.03
+   1325 | Fazendinha                      |                  0 |         6686.27
+    926 | Fernão Dias                     |                  2 |         9910.92
+   1326 | Flamengo                        |                  0 |          519.82
+   1143 | Flávio de Oliveira              |                  0 |         1903.34
+    677 | Flávio Marques Lisboa           |                  3 |        14667.02
+    678 | Floramar                        |                  2 |        21345.58
+    679 | Floresta                        |                  0 |        21973.72
+    615 | Frei Leopoldo                   |                  0 |         4621.72
+    681 | Funcionários                    |                  1 |        13083.03
+    682 | Gameleira                       |                  0 |         6260.75
+    807 | Garças                          |                  0 |        13236.03
+    684 | Glória                          |                  0 |        33213.20
+    812 | Goiânia                         |                  2 |        38853.15
+    609 | Graça                           |                  0 |         9891.98
+    686 | Grajaú                          |                  0 |        10705.08
+   1245 | Granja de Freitas               |                  1 |         9697.01
+   1176 | Granja Werneck                  |                  0 |        57661.62
+   1327 | Grota                           |                  0 |          108.31
+   1328 | Grotinha                        |                  0 |          643.95
+   1329 | Guanabara                       |                  0 |           65.76
+    687 | Guarani                         |                  1 |        13820.11
+   1330 | Guaratã                         |                  0 |         2645.43
+    689 | Gutierrez                       |                  2 |        22678.06
+    690 | Havaí                           |                  3 |        25855.22
+    691 | Heliópolis                      |                  3 |        13180.32
+    692 | Horto                           |                  1 |         8312.52
+   1331 | Horto Florestal                 |                  0 |        16467.78
+   1332 | Imbaúbas                        |                  0 |         2166.88
+    693 | Inconfidência                   |                  0 |         6552.48
+   1261 | Indaiá                          |                  0 |         6487.14
+    694 | Independência                   |                  1 |        17534.76
+   1043 | Ipê                             |                  1 |         9338.29
+    698 | Ipiranga                        |                  2 |        19057.43
+   2041 | Irmã Dorothy                    |                  0 |         1050.17
+   1157 | Itaipu                          |                  0 |        14533.98
+    699 | Itapoã                          |                  2 |        25034.82
+   1333 | Itatiaia                        |                  0 |         3706.82
+    700 | Jaqueline                       |                  5 |        41840.95
+    701 | Jaraguá                         |                  0 |         9141.17
+   1172 | Jardim Alvorada                 |                  1 |        16653.99
+    702 | Jardim América                  |                  3 |        18809.96
+    653 | Jardim Atlântico                |                  2 |        13817.98
+   1334 | Jardim do Vale                  |                  0 |         1899.92
+    703 | Jardim dos Comerciários         |                  2 |        39266.58
+    834 | Jardim Felicidade               |                  3 |        22468.42
+   2030 | Jardim Getsemani                |                  0 |         8287.63
+   1065 | Jardim Guanabara                |                  1 |        24072.87
+   1493 | Jardim Leblon                   |                  1 |        14555.85
+   2036 | Jardim Liberdade                |                  0 |         9289.14
+    704 | Jardim Montanhês                |                  1 |        10238.00
+    787 | Jardim São José                 |                  1 |        15507.34
+    831 | Jardim Vitória                  |                  1 |        43248.87
+    705 | Jardinópolis                    |                  0 |         8689.82
+    706 | Jatobá                          |                  0 |         7926.49
+   1336 | João Alfredo                    |                  0 |          415.40
+   1146 | João Paulo II                   |                  0 |         2304.96
+    707 | João Pinheiro                   |                  3 |        18688.00
+   1258 | Jonas Veiga                     |                  0 |         7153.86
+    688 | Juliana                         |                  0 |        15001.00
+    708 | Lagoa                           |                  2 |        15588.52
+   1972 | Lagoa da Pampulha               |                  0 |        10824.71
+    710 | Lagoinha                        |                  3 |        11410.61
+    709 | Lagoinha Leblon                 |                  0 |        11714.93
+   1337 | Lajedo                          |                  1 |        11574.79
+   1339 | Leonina                         |                  0 |         5801.41
+    712 | Letícia                         |                  0 |        16052.59
+    713 | Liberdade                       |                  0 |         8656.31
+    714 | Lindéia                         |                  4 |        43149.89
+   1340 | Lorena                          |                  0 |          150.24
+    715 | Lourdes                         |                  0 |        21939.42
+    716 | Luxemburgo                      |                  0 |         9497.68
+    717 | Madre Gertrudes                 |                  3 |        11780.64
+   1341 | Madri                           |                  0 |         2607.69
+   1342 | Mala e Cuia                     |                  0 |           45.93
+   1343 | Manacás                         |                  3 |        14127.47
+    718 | Mangabeiras                     |                  2 |        32330.41
+   1164 | Mangueiras                      |                  0 |         7491.58
+    719 | Mantiqueira                     |                  3 |        42880.19
+    720 | Marajó                          |                  0 |         4982.78
+   1346 | Maravilha                       |                  0 |          160.59
+   1348 | Marçola                         |                  0 |         9867.09
+    771 | Maria Goretti                   |                  0 |        17656.97
+    721 | Maria Helena                    |                  1 |        12326.46
+   1349 | Maria Teresa                    |                  1 |         6604.75
+    816 | Maria Virgínia                  |                  0 |        11176.93
+   1350 | Mariano de Abreu                |                  1 |         4379.76
+   1351 | Marieta I                       |                  0 |         1601.37
+   1973 | Marieta II                      |                  0 |          463.41
+   1158 | Marilândia                      |                  1 |         3329.74
+   1353 | Mariquinhas                     |                  0 |         4330.56
+   1354 | Marmiteiros                     |                  0 |         1060.40
+    722 | Milionários                     |                  3 |        26294.98
+    723 | Minas Brasil                    |                  0 |         6394.65
+    724 | Minascaixa                      |                  1 |        21097.06
+    725 | Minaslândia                     |                  4 |        15293.77
+   1166 | Mineirão                        |                  0 |         8208.46
+   1149 | Miramar                         |                  2 |        11965.38
+   1356 | Mirante                         |                  0 |          658.35
+   1357 | Mirtes                          |                  0 |          186.09
+    726 | Monsenhor Messias               |                  1 |         6177.80
+    695 | Monte Azul                      |                  1 |         8407.28
+   1006 | Monte São José                  |                  0 |         1303.12
+   2035 | Montes Claros                   |                  0 |        14988.56
+   1359 | Morro dos Macacos               |                  0 |          335.87
+   1240 | Nazaré                          |                  1 |        16316.16
+   1361 | Nossa Senhora da Aparecida      |                  0 |         6171.77
+   1362 | Nossa Senhora da Conceição      |                  0 |         8932.26
+   1363 | Nossa Senhora de Fátima         |                  2 |        20748.87
+   1364 | Nossa Senhora do Rosário        |                  2 |         2962.69
+    967 | Nova América                    |                  0 |          268.28
+    824 | Nova Cachoeirinha               |                  0 |        10685.04
+    728 | Nova Cintra                     |                  1 |        10572.26
+    729 | Nova Esperança                  |                  0 |         9842.48
+    730 | Nova Floresta                   |                  1 |         8488.33
+    731 | Nova Gameleira                  |                  1 |        17727.06
+    732 | Nova Granada                    |                  3 |        12423.12
+    733 | Nova Pampulha                   |                  0 |          952.05
+    734 | Nova Suissa                     |                  1 |        27161.70
+    735 | Nova Vista                      |                  1 |        13796.18
+   1170 | Novo Aarão Reis                 |                  4 |        12959.49
+   1484 | Novo Glória                     |                  1 |        14466.86
+   2033 | Novo Lajedo                     |                  0 |         9287.72
+   1366 | Novo Ouro Preto                 |                  0 |         1420.77
+   1367 | Novo Santa Cecília              |                  1 |         4585.49
+    736 | Novo São Lucas                  |                  1 |         5557.58
+   1368 | Novo Tupi                       |                  0 |         7293.83
+   1369 | Oeste                           |                  1 |        14519.41
+    833 | Olaria                          |                  1 |        13849.64
+    737 | Olhos d'Água                    |                  0 |        16701.01
+   1238 | Ouro Minas                      |                  0 |         9662.27
+    738 | Ouro Preto                      |                  3 |        40433.82
+    739 | Padre Eustáquio                 |                 14 |        50210.87
+    740 | Palmares                        |                  1 |        12029.05
+    741 | Palmeiras                       |                  1 |        19694.16
+   1370 | Pantanal                        |                  0 |         1173.97
+    743 | Paquetá                         |                  1 |        19882.64
+    744 | Paraíso                         |                  1 |        27801.86
+   1142 | Parque São José                 |                  1 |         5983.03
+   1371 | Parque São Pedro                |                  0 |         8208.30
+    905 | Paulo VI                        |                  1 |        15103.69
+    746 | Pedreira Prado Lopes            |                  1 |         7319.37
+   1372 | Penha                           |                  0 |         4980.63
+   1165 | Petrópolis                      |                  2 |         5209.71
+   1168 | Pilar                           |                  1 |        15836.12
+    748 | Pindorama                       |                  2 |        32069.57
+   1374 | Pindura Saia                    |                  0 |          261.68
+    749 | Pirajá                          |                  0 |         5921.50
+    790 | Piratininga                     |                  1 |        35958.82
+   1376 | Pirineus                        |                  0 |         4384.03
+    750 | Planalto                        |                  4 |        42571.23
+    751 | Pompéia                         |                  3 |        13062.28
+    823 | Pongelupe                       |                  1 |         7015.42
+   1173 | Pousada Santo Antônio           |                  0 |         5345.92
+    752 | Prado                           |                  0 |        31756.38
+    754 | Primeiro de Maio                |                  1 |         5021.23
+    756 | Providência                     |                  0 |        16391.03
+    758 | Renascença                      |                  2 |        21143.03
+    759 | Ribeiro de Abreu                |                  3 |        36319.28
+    818 | Rio Branco                      |                  4 |        27027.73
+    760 | Sagrada Família                 |                 11 |        48254.66
+    761 | Salgado Filho                   |                  2 |        30520.72
+    762 | Santa Amélia                    |                  4 |        44900.48
+    829 | Santa Branca                    |                  1 |        16503.59
+   1159 | Santa Cecília                   |                  1 |         7222.53
+    763 | Santa Cruz                      |                  2 |        35653.85
+    765 | Santa Efigênia                  |                  9 |        39419.58
+    766 | Santa Helena                    |                  0 |        12663.64
+    767 | Santa Inês                      |                  1 |        22545.51
+   1378 | Santa Isabel                    |                  0 |          157.52
+    768 | Santa Lúcia                     |                  0 |        33337.62
+   1144 | Santa Margarida                 |                  0 |         6124.94
+    770 | Santa Maria                     |                  1 |        15136.61
+    772 | Santa Mônica                    |                  5 |        42184.95
+   1163 | Santa Rita                      |                  1 |         3603.38
+   1379 | Santa Rita de Cássia            |                  1 |         6963.30
+    773 | Santa Rosa                      |                  2 |        13643.60
+   1380 | Santa Sofia                     |                  0 |         4634.44
+    774 | Santa Tereza                    |                  3 |        25985.17
+    775 | Santa Terezinha                 |                  2 |        25811.19
+   1381 | Santana do Cafezal              |                  1 |         7531.88
+    776 | Santo Agostinho                 |                  1 |        14405.94
+    777 | Santo André                     |                  1 |        11731.55
+    778 | Santo Antônio                   |                  2 |        25295.53
+   1382 | São Benedito                    |                  0 |         1597.25
+    779 | São Bento                       |                  1 |        15468.69
+    780 | São Bernardo                    |                  6 |        17027.35
+    781 | São Cristóvão                   |                  4 |         6368.64
+   1383 | São Damião                      |                  0 |         2498.28
+    782 | São Francisco                   |                  2 |        21695.41
+   1373 | São Francisco das Chagas        |                  0 |         1104.99
+    783 | São Gabriel                     |                  1 |        31933.65
+    784 | São Geraldo                     |                  2 |        25133.08
+   1384 | São Gonçalo                     |                  0 |         5605.30
+   1385 | São João                        |                  0 |         2050.89
+    785 | São João Batista                |                 10 |        30551.51
+   1670 | São Jorge I                     |                  0 |         2761.19
+   1671 | São Jorge II                    |                  1 |         6031.49
+   1672 | São Jorge III                   |                  0 |         6170.31
+    640 | São José                        |                  0 |         6319.68
+   2039 | São Judas Tadeu                 |                  0 |          793.96
+    788 | São Lucas                       |                  0 |         5549.83
+    641 | São Luíz                        |                  3 |        33470.99
+    789 | São Marcos                      |                  1 |        12574.61
+    791 | São Paulo                       |                  7 |         8733.94
+    792 | São Pedro                       |                  1 |        12579.47
+    793 | São Salvador                    |                  1 |        11960.44
+   1479 | São Sebastião                   |                  0 |          843.22
+    794 | São Tomáz                       |                  0 |         4671.37
+   1388 | São Vicente                     |                  0 |          534.46
+   1389 | Satélite                        |                  0 |         2387.33
+    796 | Saudade                         |                  0 |         8801.87
+   1133 | Savassi                         |                  5 |        22242.93
+   1390 | Senhor dos Passos               |                  0 |         3898.68
+    797 | Serra                           |                  2 |        29481.82
+   1494 | Serra do Curral                 |                  2 |        14276.64
+    799 | Serra Verde                     |                  2 |        28821.00
+    798 | Serrano                         |                  0 |        19379.10
+   1253 | Silveira                        |                  4 |         7989.75
+    801 | Sion                            |                  0 |        21480.35
+   1167 | Solar do Barreiro               |                  0 |         7948.50
+    802 | Solimões                        |                  0 |         1908.38
+   1392 | Sport Club                      |                  0 |          798.79
+    674 | Sumaré                          |                  0 |         1156.61
+    907 | Suzana                          |                  1 |         6371.89
+    803 | Taquaril                        |                  2 |         7660.69
+    804 | Teixeira Dias                   |                  1 |        12155.69
+   2034 | Tiradentes                      |                  0 |         7051.02
+    805 | Tirol                           |                  2 |        31398.72
+   1394 | Três Marias                     |                  0 |         1419.46
+    827 | Trevo                           |                  1 |        21499.33
+   1155 | Túnel de Ibirité                |                  2 |         4596.32
+    806 | Tupi A                          |                  1 |        16975.75
+   1247 | Tupi B                          |                  0 |        26743.50
+    808 | União                           |                  3 |        28936.22
+    809 | Universitário                   |                  0 |         6343.92
+   1396 | Universo                        |                  0 |         1813.87
+   1397 | Urca                            |                  0 |         5655.38
+    832 | Vale do Jatobá                  |                  2 |        19842.49
+   1398 | Várzea da Palma                 |                  0 |          174.84
+    810 | Venda Nova                      |                  1 |        13401.68
+   1974 | Ventosa                         |                  0 |         9577.31
+    811 | Vera Cruz                       |                  2 |         8269.13
+   1401 | Vila Aeroporto                  |                  0 |         2232.87
+   1402 | Vila Aeroporto Jaraguá          |                  0 |          330.79
+   2027 | Vila Alto dos Pinheiros         |                  0 |          310.64
+   1405 | Vila Antena                     |                  0 |         3119.77
+   1406 | Vila Antena Montanhês           |                  0 |         1024.30
+   1407 | Vila Átila de Paiva             |                  0 |         2150.00
+   1408 | Vila Bandeirantes               |                  0 |          578.69
+   1409 | Vila Barragem Santa Lúcia       |                  1 |         9993.60
+   1285 | Vila Batik                      |                  0 |          209.61
+   1410 | Vila Boa Vista                  |                  0 |          983.96
+   1676 | Vila Calafate                   |                  0 |          694.69
+   1412 | Vila Califórnia                 |                  0 |         5345.91
+   1664 | Vila Canto do Sabiá             |                  0 |          228.96
+    673 | Vila CEMIG                      |                  1 |         9970.47
+    813 | Vila Clóris                     |                  2 |        18131.04
+   1413 | Vila Copacabana                 |                  0 |          688.71
+   1414 | Vila COPASA                     |                  0 |          544.70
+   1415 | Vila Coqueiral                  |                  1 |         2520.98
+   1675 | Vila da Amizade                 |                  0 |          469.40
+   1660 | Vila da Luz                     |                  0 |         3474.01
+   1417 | Vila da Paz                     |                  0 |          502.14
+   1419 | Vila de Sá                      |                  0 |          339.86
+   1294 | Vila Dias                       |                  0 |         1131.56
+   1420 | Vila do Pombal                  |                  0 |           97.88
+   1421 | Vila dos Anjos                  |                  0 |          846.21
+   1251 | Vila Ecológica                  |                  0 |         6511.37
+   1422 | Vila Engenho Nogueira           |                  0 |          292.76
+   1322 | Vila Esplanada                  |                  0 |          586.66
+   1254 | Vila Formosa                    |                  0 |         1982.82
+   1423 | Vila FUMEC                      |                  0 |          201.30
+   1424 | Vila Havaí                      |                  0 |          265.33
+   2037 | Vila Horto Florestal            |                  0 |           99.52
+   1425 | Vila Independência I            |                  0 |         3583.24
+   1426 | Vila Independência II           |                  0 |         1581.64
+   1427 | Vila Independência IV           |                  0 |          999.78
+   1428 | Vila Inestan                    |                  0 |         1153.63
+   1429 | Vila Ipiranga                   |                  0 |          217.19
+   1404 | Vila Jardim Alvorada            |                  0 |         4910.82
+   1430 | Vila Jardim Leblon              |                  0 |          366.88
+   1431 | Vila Jardim Montanhês           |                  0 |          761.98
+   1391 | Vila Madre Gertrudes I          |                  0 |         1774.00
+   1320 | Vila Madre Gertrudes II         |                  0 |          853.43
+   1358 | Vila Madre Gertrudes III        |                  0 |          385.47
+   1345 | Vila Madre Gertrudes V          |                  0 |          464.54
+   1433 | Vila Maloca                     |                  0 |          843.92
+   1677 | Vila Mangueiras                 |                  0 |         3373.16
+   1435 | Vila Mantiqueira                |                  0 |         1017.52
+   1436 | Vila Maria                      |                  1 |         5665.85
+   1437 | Vila Minaslândia                |                  0 |         1139.51
+   1360 | Vila Nossa Senhora Aparecida    |                  0 |         2828.28
+   1438 | Vila Nossa Senhora do Rosário   |                  0 |          937.02
+   1439 | Vila Nova                       |                  0 |          375.98
+   1440 | Vila Nova Cachoeirinha I        |                  0 |         2848.24
+   1441 | Vila Nova Cachoeirinha II       |                  0 |          162.22
+   1443 | Vila Nova Cachoeirinha IV       |                  0 |          299.76
+   2029 | Vila Nova Cintra                |                  0 |          279.71
+   1444 | Vila Nova dos Milionários       |                  0 |          739.20
+   1445 | Vila Nova Gameleira I           |                  0 |          796.50
+   1446 | Vila Nova Gameleira II          |                  0 |         1851.57
+   1447 | Vila Nova Gameleira III         |                  0 |          395.42
+   1448 | Vila Nova Paraíso               |                  0 |         1240.93
+   1449 | Vila Novo São Lucas             |                  0 |         4916.46
+    814 | Vila Oeste                      |                  0 |         1604.96
+   1661 | Vila Ouro Minas                 |                  0 |         1319.81
+   1451 | Vila Paquetá                    |                  0 |          612.60
+   1452 | Vila Paraíso                    |                  0 |          462.59
+    815 | Vila Paris                      |                  0 |         4626.62
+   1453 | Vila Petrópolis                 |                  0 |          447.69
+   1153 | Vila Pinho                      |                  1 |         9271.31
+   1455 | Vila Piratininga                |                  0 |         2954.87
+   1375 | Vila Piratininga Venda Nova     |                  0 |          343.24
+   1456 | Vila Primeiro de Maio           |                  0 |         6080.87
+   1457 | Vila PUC                        |                  0 |          234.78
+   1458 | Vila Real I                     |                  0 |            0.00
+   1459 | Vila Real II                    |                  0 |          746.20
+   1460 | Vila Rica                       |                  1 |         1226.45
+   1975 | Vila Santa Mônica               |                  0 |         2632.54
+   1462 | Vila Santa Rosa                 |                  0 |         1328.76
+   1463 | Vila Santo Antônio              |                  0 |          109.73
+   1464 | Vila Santo Antônio Barroquinha  |                  0 |          854.18
+   1486 | Vila São Dimas                  |                  0 |          173.03
+   1465 | Vila São Francisco              |                  0 |          134.51
+   1662 | Vila São Gabriel                |                  0 |          856.00
+   1467 | Vila São Geraldo                |                  0 |           81.78
+    786 | Vila São João Batista           |                  0 |         3462.97
+   1468 | Vila São Paulo                  |                  0 |         2909.33
+   1470 | Vila São Rafael                 |                  0 |         1093.34
+   2028 | Vila São Tomáz                  |                  1 |         5583.22
+   1471 | Vila Satélite                   |                  0 |          385.93
+    800 | Vila SESC                       |                  0 |          612.58
+   1473 | Vila Sumaré                     |                  0 |         2656.26
+   1474 | Vila Suzana I                   |                  0 |         1629.77
+   1475 | Vila Suzana II                  |                  0 |          203.66
+   1393 | Vila Tiradentes                 |                  0 |         2011.51
+   1476 | Vila Tirol                      |                  0 |          362.30
+   2038 | Vila Trevo                      |                  0 |          354.38
+   1477 | Vila Trinta e Um de Março       |                  0 |         2544.72
+   1478 | Vila União                      |                  0 |          968.75
+   1652 | Vila Vera Cruz I                |                  0 |          283.79
+   1653 | Vila Vera Cruz II               |                  0 |           29.36
+   2031 | Vila Verde                      |                  0 |           45.90
+   1480 | Vila Vista Alegre               |                  0 |        12390.22
+   2026 | Vila Viveiro                    |                  0 |         1165.38
+    817 | Virgínia                        |                  0 |          595.15
+    819 | Vista Alegre                    |                  2 |         9624.50
+   1202 | Vista do Sol                    |                  0 |         8288.40
+   1481 | Vitória                         |                  2 |         7479.24
+   1252 | Vitória da Conquista            |                  0 |         3547.21
+    820 | Xangri-lá                       |                  0 |         1961.03
+    675 | Xodó-Marize                     |                  0 |         6222.78
+   1482 | Zilah Spósito                   |                  0 |         2983.20
+(493 linhas)
+
+ id_trecho_logradouro | id_logradouro |           nome_logradouro           
+----------------------+---------------+-------------------------------------
+                  809 |        306016 | JORGE FERREIRA
+                  810 |        306016 | JORGE FERREIRA
+                 2594 |          9377 | TREM DE FERRO
+                 3569 |         77236 | NELCI VERA ADAM
+                 4693 |         17688 | CORONEL DURVAL DE BARROS
+                 5225 |         21478 | MARCIA DE WINDSOR
+                 5232 |        102125 | JOSE MAURO DE VASCONCELOS
+                 5643 |         93366 | CARMELITA COELHO DA ROCHA
+                 5716 |        300163 | DO SERTAO
+                 6158 |         93366 | CARMELITA COELHO DA ROCHA
+                 6523 |         49976 | OLIVIO RODRIGUES
+                 6526 |          3720 | ANDARAI
+                 6673 |         75127 | ANTONIO RODRIGUES DA COSTA
+                 6882 |         41920 | LUNDS FERREIRA
+                 9171 |        302431 | JOSE TAVARES FILHO
+                 9733 |         21478 | MARCIA DE WINDSOR
+                 9734 |         21478 | MARCIA DE WINDSOR
+                 9735 |         21478 | MARCIA DE WINDSOR
+                 9737 |         21478 | MARCIA DE WINDSOR
+                 9739 |         93366 | CARMELITA COELHO DA ROCHA
+                 9740 |         93366 | CARMELITA COELHO DA ROCHA
+                 9741 |         93366 | CARMELITA COELHO DA ROCHA
+                 9742 |         93366 | CARMELITA COELHO DA ROCHA
+                10982 |         85607 | TIRADENTES
+                13549 |         60352 | SANTA APOLONIA
+                15623 |         90112 | CUCO
+                17539 |         57423 | JORNALISTA GERALDO RESENDE
+                17575 |        300349 | C
+                17850 |         57423 | JORNALISTA GERALDO RESENDE
+                18863 |         60352 | SANTA APOLONIA
+                18979 |         90112 | CUCO
+                19292 |         77904 | V
+                19293 |         77904 | V
+                19448 |        302535 | TRES MIL NOVECENTOS E TRINTA E NOVE
+                19559 |        308150 | TAMBY
+                19882 |         57423 | JORNALISTA GERALDO RESENDE
+                20702 |        303179 | VERAO
+                20703 |        303180 | ALFA
+                21283 |        105439 | OUTONO
+                21899 |         57423 | JORNALISTA GERALDO RESENDE
+                23147 |        124630 | MIRACAJU
+                23530 |         85708 | JOSE GOMES DOMINGUES
+                23860 |        113390 | CARNAUBA
+                25858 |         71081 | ITINGA
+                26149 |         71081 | ITINGA
+                26150 |         71081 | ITINGA
+                26151 |         71081 | ITINGA
+                26196 |         57423 | JORNALISTA GERALDO RESENDE
+                26346 |         99104 | AUGUSTA ANDRADE LAGE
+                29253 |        306526 | A
+                29261 |        113390 | CARNAUBA
+                29347 |        113390 | CARNAUBA
+                29348 |        113390 | CARNAUBA
+                29349 |        113390 | CARNAUBA
+                34536 |        120626 | CERRO AZUL
+                34802 |         76199 | VINICIUS DE MORAES
+                37048 |        302585 | HUM
+                37362 |        302585 | HUM
+                38012 |        120830 | AGUA
+                38014 |        120830 | AGUA
+                40120 |         84355 | DOS MENEZES
+                44204 |         84355 | DOS MENEZES
+                44939 |        120985 | IRMA LUCIA
+                44940 |        121023 | MAR
+                45660 |        120944 | TREZE DE MAIO
+                45843 |        303082 | JOSE SILVA PASSOS
+                46226 |         39414 | DONA JUDITH DE MORAIS E BARROS
+                46456 |         49976 | OLIVIO RODRIGUES
+                47314 |        117740 | SAO LUCAS
+                51521 |        303179 | VERAO
+                51676 |        310887 | PROFESSORA STAEL ANDRADE
+                53966 |        308152 | RAIMUNDO CORREIA
+                54588 |        121077 | DALKER TEIXEIRA ROCHA
+                54589 |        121077 | DALKER TEIXEIRA ROCHA
+                54592 |        312343 | UM
+                54670 |        120897 | ROCHIL JOSE DE MATOS
+                55063 |        312532 | RICARDO FREITAS
+                55643 |        301868 | CINQUENTA E SEIS
+                56353 |        308145 | LIBIA
+                56772 |        308145 | LIBIA
+                62745 |        106066 | JOSE ALVES
+                65798 |        310887 | PROFESSORA STAEL ANDRADE
+                70944 |        314106 | PORTO ALEGRE
+                77925 |        306016 | JORGE FERREIRA
+(84 linhas)
+
+ codigo |   bairro    | id_trecho_logradouro |              nome_logradouro              | distancia_m 
+--------+-------------+----------------------+-------------------------------------------+-------------
+   1458 | Vila Real I |                30086 | VILA REAL                                 |        0.14
+   1458 | Vila Real I |                52607 | SAO FRANCISCO X PRESIDENTE ANTONIO CARLOS |       14.53
+   1458 | Vila Real I |                52611 | SAO FRANCISCO X PRESIDENTE ANTONIO CARLOS |       14.53
+   1458 | Vila Real I |                52608 | SAO FRANCISCO X PRESIDENTE ANTONIO CARLOS |       14.53
+   1458 | Vila Real I |                33451 | ALGARVE                                   |       17.70
+(5 linhas)
+
+ equipamentos_ate_1km_de_uma_via 
+---------------------------------
+                             398
+(1 linha)
+
+ total_equipamentos | sem_bairro 
+--------------------+------------
+                398 |          0
+(1 linha)
+
